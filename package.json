@@ -13,5 +13,9 @@
   "dependencies": {
     "@types/cordova": "latest"
   },
+  "peerDependencies": {
+    "rxjs": "^7.8.0",
+    "@ionic-native/core": "^5.1.0"
+  },
   "version": "5.36.0"
 }

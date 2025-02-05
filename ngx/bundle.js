@@ -4,7 +4,7 @@ Object.defineProperty(exports, '__esModule', { value: true });
 
 var tslib = require('tslib');
 var core$1 = require('@angular/core');
-var core = require('@awesome-cordova-plugins/core');
+var core = require('@ionic-native/core');
 require('rxjs');
 
 var ApplePay = /** @class */ (function (_super) {
@@ -27,6 +27,6 @@ var ApplePay = /** @class */ (function (_super) {
         { type: core$1.Injectable }
     ];
     return ApplePay;
-}(core.AwesomeCordovaNativePlugin));
+}(core.IonicNativePlugin));
 
 exports.ApplePay = ApplePay;

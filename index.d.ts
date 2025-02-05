@@ -1,4 +1,4 @@
-import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
+import { IonicNativePlugin } from '@ionic-native/core';
 import { Observable } from 'rxjs';
 export declare type IMakePayments = 'This device can make payments and has a supported card' | 'This device cannot make payments.' | 'This device can make payments but has no supported cards';
 export declare type IShippingType = 'shipping' | 'delivery' | 'store' | 'service';

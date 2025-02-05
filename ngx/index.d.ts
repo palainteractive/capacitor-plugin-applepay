@@ -1,4 +1,4 @@
-import { AwesomeCordovaNativePlugin } from '@awesome-cordova-plugins/core';
+import { IonicNativePlugin } from '@ionic-native/core';
 import { Observable } from 'rxjs';
 import * as ɵngcc0 from '@angular/core';
 export declare type IMakePayments = 'This device can make payments and has a supported card' | 'This device cannot make payments.' | 'This device can make payments but has no supported cards';
@@ -122,7 +122,7 @@ export interface ISelectedShippingContact {
  * }
  * ```
  */
-export declare class ApplePay extends AwesomeCordovaNativePlugin {
+export declare class ApplePay extends IonicNativePlugin {
     /**
      * Detects if the current device supports Apple Pay and has any capable cards registered.
      * @return {Promise<IMakePayments>} Returns a promise
